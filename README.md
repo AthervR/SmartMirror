@@ -29,11 +29,11 @@ A full-screen smart mirror dashboard built with Electron, designed to run as a k
 | MicroSD card | 32 GB+ Class 10 / A1 | https://www.amazon.com/SanDisk-Ultra-UHS-I-Memory-Adapter/dp/B00M55C0NS/ref=sr_1_4?crid=YDE86EYNV6EN&dib=eyJ2IjoiMSJ9.rqv_K51avTF4LethvvFZEX6rn6P9CxRgyO6IGLD2gh5ltuFTiFttoZOYLc9HL4U3tl0YQ1JWLA2L63LYGQPDs8YRxCJEIuFiSOYu_hPEhEiBHohuO2izNKlUV3WcDvc6R4rVXwmDYajUTNEPjJc9zE5EBRxuhD4yYPSvsI2mA-CEcKuMWTamd9Y08rENBswMNnWtN2uFuaBVON70QtHZ5pqYSw6jIu1aR6AwDSwpGRA.gELOv2oHzSPcYCQ9I7UgQZxAzUEcSpzy6CPIq3mP9sg&dib_tag=se&keywords=32gb+sd+card&qid=1782528981&sprefix=32gb+sd+ca%2Caps%2C210&sr=8-4 |
 | Pi power supply | Official USB-C PSU (5V/3A for Pi 4, 5V/5A for Pi 5) | |
 | Monitor / display | Any HDMI monitor that fits your frame | https://www.amazon.com/dp/B0BPM9VTY6?ref=ppx_yo2ov_dt_b_fed_asin_title |
-| Monitor power cable | Match your monitor | |
+| LED Strip | 12V Warm LED Light strip to provide ambient lighting - can serve as a nightlight | https://www.amazon.com/dp/B0DZ285MV9?ref=ppx_yo2ov_dt_b_fed_asin_title |
 | HDMI cable | Micro-HDMI to HDMI for Pi 4/5 | |
-| Two-way mirror acrylic | Cut to your monitor size; acrylic is lighter than glass | |
+| Two-way mirror acrylic | Cut to your monitor size; acrylic is lighter than glass | https://www.amazon.com/dp/B0G8D8RV6G?ref=ppx_yo2ov_dt_b_fed_asin_title |
 | Mirror frame / shadow box | Deep enough to hide the monitor + Pi | https://www.amazon.com/dp/B0C6H6ZQ6R?ref=ppx_yo2ov_dt_b_fed_asin_title |
-| BME280 Sensor Module for Pressure, Temperature & Humidity | https://www.amazon.com/dp/B0DHPCFXCK?ref=ppx_yo2ov_dt_b_fed_asin_title |
+| BME280 Sensor Module for Pressure, Temperature & Humidity | Sensor Module to report pressure, temperature and humidity in the room (Block #3) | https://www.amazon.com/dp/B0DHPCFXCK?ref=ppx_yo2ov_dt_b_fed_asin_title |
 | PIR motion sensor | For auto-wake / display power (Block #3) | https://www.amazon.com/dp/B0CCF3HYT9?ref=ppx_yo2ov_dt_b_fed_asin_title |
 
 ---
