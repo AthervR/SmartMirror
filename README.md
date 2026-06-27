@@ -25,16 +25,16 @@ A full-screen smart mirror dashboard built with Electron, designed to run as a k
 
 | Component | Notes | Link |
 |---|---|---|
-| Raspberry Pi | Pi 4 (4 GB) or Pi 5 recommended | |
-| MicroSD card | 32 GB+ Class 10 / A1 | |
+| Raspberry Pi | Pi 4 (4 GB) or Pi 5 recommended | https://www.amazon.com/Raspberry-Pi-Computer-Suitable-Workstation/dp/B0899VXM8F/ref=sr_1_1?crid=1VXJ4X0GGHKYA&dib=eyJ2IjoiMSJ9.h6N2Tyq9H2l8mNOjW6HJ9PgoSkwOBRt8Vd6Xr1i6r_63XV8-Ka0mMiRjQdiac86EpQ_TPm3dvioXgImExBi8qoL44b3gJeopPPwX1GY2teIYg3WHMKlY2mLNOfnNXGU5ppgunrJ7nuN2yviPf6Imxp_dEW-x4waLF503iDFFP3l61DURwsRZ2XwkiumuXRW8GP1HuFbJV3BE7O4dAAAPNPfkw_UlWn0n1ojSN4aPidU.L5uU8H3cQUBBGZOqlJx_KZ8PxC8v_SxnLNgvz7kydR4&dib_tag=se&keywords=raspberry+pi+4b+8gb&qid=1782528952&sprefix=raspberry+pi+4b%2Caps%2C265&sr=8-1 |
+| MicroSD card | 32 GB+ Class 10 / A1 | https://www.amazon.com/SanDisk-Ultra-UHS-I-Memory-Adapter/dp/B00M55C0NS/ref=sr_1_4?crid=YDE86EYNV6EN&dib=eyJ2IjoiMSJ9.rqv_K51avTF4LethvvFZEX6rn6P9CxRgyO6IGLD2gh5ltuFTiFttoZOYLc9HL4U3tl0YQ1JWLA2L63LYGQPDs8YRxCJEIuFiSOYu_hPEhEiBHohuO2izNKlUV3WcDvc6R4rVXwmDYajUTNEPjJc9zE5EBRxuhD4yYPSvsI2mA-CEcKuMWTamd9Y08rENBswMNnWtN2uFuaBVON70QtHZ5pqYSw6jIu1aR6AwDSwpGRA.gELOv2oHzSPcYCQ9I7UgQZxAzUEcSpzy6CPIq3mP9sg&dib_tag=se&keywords=32gb+sd+card&qid=1782528981&sprefix=32gb+sd+ca%2Caps%2C210&sr=8-4 |
 | Pi power supply | Official USB-C PSU (5V/3A for Pi 4, 5V/5A for Pi 5) | |
-| Monitor / display | Any HDMI monitor that fits your frame | |
+| Monitor / display | Any HDMI monitor that fits your frame | https://www.amazon.com/dp/B0BPM9VTY6?ref=ppx_yo2ov_dt_b_fed_asin_title |
 | Monitor power cable | Match your monitor | |
 | HDMI cable | Micro-HDMI to HDMI for Pi 4/5 | |
 | Two-way mirror acrylic | Cut to your monitor size; acrylic is lighter than glass | |
-| Mirror frame / shadow box | Deep enough to hide the monitor + Pi | |
-| Mirror mounting hardware | L-brackets, standoffs, or custom frame backing | |
-| PIR motion sensor | For auto-wake / display power (Block #3) | |
+| Mirror frame / shadow box | Deep enough to hide the monitor + Pi | https://www.amazon.com/dp/B0C6H6ZQ6R?ref=ppx_yo2ov_dt_b_fed_asin_title |
+| BME280 Sensor Module for Pressure, Temperature & Humidity | https://www.amazon.com/dp/B0DHPCFXCK?ref=ppx_yo2ov_dt_b_fed_asin_title |
+| PIR motion sensor | For auto-wake / display power (Block #3) | https://www.amazon.com/dp/B0CCF3HYT9?ref=ppx_yo2ov_dt_b_fed_asin_title |
 
 ---
 
@@ -51,7 +51,7 @@ A full-screen smart mirror dashboard built with Electron, designed to run as a k
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/athervr/smart-mirror.git
+git clone https://github.com/AthervR/SmartMirror
 cd smart-mirror
 
 # 2. Install dependencies
