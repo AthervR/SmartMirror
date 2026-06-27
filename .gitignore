@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Personal photos — drop your images in photos/ locally; only the README ships
+photos/*
+!photos/README.txt
+
+# Logs
+*.log
+logs/
+
+# Personal config (has real coordinates — copy config.example.js to get started)
+config/config.js
+
+# Environment / secrets
+.env
+.env.*
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Electron runtime state (lives in ~/.config/smart-mirror, but guard here too)
+user-data/
+.cache/

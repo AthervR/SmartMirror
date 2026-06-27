@@ -1,0 +1,31 @@
+# =============================================================================
+#  Smart Mirror — systemd USER service
+#  Auto-starts the mirror at login and restarts it if it ever crashes.
+#
+#  Why default.target (not graphical-session.target)? Under labwc autologin the
+#  user systemd manager never activates graphical-session.target, so a unit wired
+#  to it would silently never start at boot. default.target IS reached at
+#  user-manager startup; the launcher's 30s Wayland-socket wait covers the brief
+#  race against the compositor coming up.
+#
+#  Install (one time):
+#     mkdir -p ~/.config/systemd/user
+#     cp ~/smart-mirror/system/smart-mirror.service ~/.config/systemd/user/
+#     systemctl --user daemon-reload
+#     systemctl --user enable --now smart-mirror.service
+#
+#  Manage it with:  systemctl --user {status|restart|stop} smart-mirror
+# =============================================================================
+[Unit]
+Description=Smart Mirror (Electron kiosk)
+
+[Service]
+Type=simple
+ExecStart=/home/athervr/smart-mirror/scripts/start-smart-mirror.sh
+Restart=on-failure
+RestartSec=3
+# The launcher itself waits for the Wayland socket; this is just the outer bound.
+TimeoutStartSec=60
+
+[Install]
+WantedBy=default.target

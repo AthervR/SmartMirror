@@ -1,0 +1,17 @@
+/* =============================================================================
+ *  YOUR STYLE TWEAKS GO HERE
+ *  This file loads after main.css, so anything you write here wins.
+ *  It's safe to experiment — you won't break the core styles.
+ *
+ *  Examples (delete the /* *​/ around a block to use it):
+ *
+ *  Make the clock bigger:
+ *    .clock-time { font-size: 120px; }
+ *
+ *  Warm white text instead of pure white:
+ *    :root { --text-color: #f4efe7; }
+ *
+ *  Nudge the dashboard padding:
+ *    .dashboard { padding: 40px 48px; }
+ * =============================================================================
+ */

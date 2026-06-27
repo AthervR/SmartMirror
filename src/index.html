@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="default-src 'self'; img-src 'self' mirror-photo: data:; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'self';"
+  />
+  <title>Smart Mirror</title>
+  <link rel="stylesheet" href="styles/main.css" />
+  <!-- custom.css loads LAST so your tweaks always win -->
+  <link rel="stylesheet" href="styles/custom.css" />
+</head>
+<body data-state="active" data-cursor="hide">
+
+  <!-- AMBIENT: full-screen photo slideshow (two cross-fading layers) -->
+  <div id="ambient" class="ambient-layer" aria-hidden="true">
+    <div class="ambient-img" data-layer="a"></div>
+    <div class="ambient-img" data-layer="b"></div>
+    <div class="ambient-vignette"></div>
+  </div>
+
+  <!-- ACTIVE: the dashboard. Regions are injected by layout.js -->
+  <main id="dashboard" class="dashboard"></main>
+
+  <!-- SLEEP: pure black overlay -->
+  <div id="sleep-overlay" class="sleep-overlay" aria-hidden="true"></div>
+
+  <!-- DEBUG: on-screen state/idle overlay (toggle with "d") -->
+  <div id="debug-hud" class="debug-hud" hidden></div>
+
+  <!-- Modules load in dependency order; renderer.js wires them together last -->
+  <script src="js/app-state.js"></script>
+  <script src="js/module-registry.js"></script>
+  <!-- Block #2 data modules (override the weather/calendar/news placeholders) -->
+  <script src="js/modules/data-module.js"></script>
+  <script src="js/modules/weather.js"></script>
+  <script src="js/modules/calendar.js"></script>
+  <script src="js/modules/news.js"></script>
+  <script src="js/modules/photos.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/ambient-mode.js"></script>
+  <script src="js/activity-manager.js"></script>
+  <script src="js/debug-controls.js"></script>
+  <script src="js/renderer.js"></script>
+</body>
+</html>
